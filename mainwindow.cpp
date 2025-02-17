@@ -18,7 +18,7 @@
 #include "about.h"
 #include "screen.h"
 #include "setting.h"
-
+#include "leetcode.h"
 MainWindow::MainWindow(QWidget *parent)
     : ElaWindow(parent)
 {
