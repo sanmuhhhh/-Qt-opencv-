@@ -103,7 +103,7 @@ void MainWindow::initContent()
     _homePage = new home(this);
     _graphicsPage = new Graphics(this);
     _settingPage = new setting(this);
-    _algorithm = new Graphics(this);
+    _algorithm = new leetcode(this);
     _vedio = new  class screen(this);
     QString testKey_1;
     QString testKey_2;
