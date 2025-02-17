@@ -66,28 +66,7 @@ void MainWindow::initEdgeLayout()
     customLayout->setContentsMargins(0, 0, 0, 0);
     customLayout->addWidget(menuBar);
     customLayout->addStretch();
-    // //设置menubar的格式
-    // //this->setMenuBar(menuBar);
-    // this->setCustomWidget(ElaAppBarType::LeftArea, customWidget);
-    // this->setCustomWidgetMaximumWidth(500);
-    // //子选项
-    // ElaMenu*iconfile = menuBar->addMenu(ElaIconType::Copy,"文件");
-    // iconfile->addElaIconAction(ElaIconType::ArrowRotateRight, "打开文件");
-    // iconfile->addElaIconAction(ElaIconType::CircleUp,"打开项目");
-    // iconfile->addElaIconAction(ElaIconType::Tents,"最近项目");
-    // iconfile->addElaIconAction(ElaIconType::TurnDownLeft,"导出文件");
-    // ElaMenu* iconMenu = menuBar->addMenu(ElaIconType::Aperture, "快捷");
-    // iconMenu->setMenuItemHeight(27);
-    // iconMenu->addElaIconAction(ElaIconType::BoxCheck, "排序方式", QKeySequence::SelectAll);
-    // iconMenu->addElaIconAction(ElaIconType::Copy, "复制");
-    // iconMenu->addElaIconAction(ElaIconType::MagnifyingGlassPlus, "显示设置");
-    // //分割线
-    // iconMenu->addSeparator();
-    // iconMenu->addElaIconAction(ElaIconType::ArrowRotateRight, "刷新");
-    // iconMenu->addElaIconAction(ElaIconType::ArrowRotateLeft, "撤销");
-    // menuBar->addSeparator();
-
-
+ 
     //工具栏
     ElaToolBar* toolBar = new ElaToolBar("工具栏", this);
     toolBar->setAllowedAreas(Qt::TopToolBarArea | Qt::BottomToolBarArea);
