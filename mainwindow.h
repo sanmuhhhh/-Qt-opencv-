@@ -9,6 +9,7 @@ class ElaContentDialog;
 class About;
 class Graphics;
 class setting;
+class leetcode;
 class MainWindow : public ElaWindow
 {
     Q_OBJECT
@@ -26,7 +27,7 @@ private:
     About* _aboutPage{nullptr};
     Graphics* _graphicsPage{nullptr};
     setting* _settingPage{nullptr};
-    Graphics* _algorithm{nullptr};
+    leetcode* _algorithm{nullptr};
     class screen* _vedio{nullptr};
     QString _aboutKey{""};
     QString _settingKey{""};
